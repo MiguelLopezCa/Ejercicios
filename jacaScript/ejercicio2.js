@@ -1,11 +1,8 @@
 function analizar(){
  var m =(document.getElementById('cadena2').value);
 
- if( m==""){
+ if( isNaN(m)==true){
    console.log(typeof m); 
-   
- }else if(m==''){
-   console.log(typeof parseFloat(m));
    
  }else{
    console.log(typeof parseFloat(m));
