@@ -31,15 +31,13 @@ function analizar(){
             }
         }
     }
-    if(num1<0 &&num2>0){
+    if(num1<0 && num2>0){
         if (Number.isInteger(num1)&&Number.isInteger(num2)){
             document.getElementById('titulo').innerHTML='El número '+num1+' No es positivo';
         }else{
             document.getElementById('titulo').innerHTML='El número '+num1+' No es entero positivo y el número '+num2+' No es entero';
         }
-        if (Number.isInteger(num1)&& num2!=Number.isInteger(num2) ){
-            document.getElementById('titulo').innerHTML='El número'+num1 +' no es positivo y el número '+ num2 +'  no es entero ';
-        }
+        
     }
     if(num1>0 && num2 <0){
         if (Number.isInteger(num1) && Number.isInteger(num2)){
@@ -47,9 +45,7 @@ function analizar(){
         }else{
             document.getElementById('titulo').innerHTML='El número '+num1+' No es positivo y el número '+num2+' No es entero positivo';
         }
-         if (Number.isInteger(num1)&& num2 != Number.isInteger(num2) ){
-            document.getElementById('titulo').innerHTML='el número '+ num2 +'  no es entero positivos xd';
-        }
+         
     }
 
 }
