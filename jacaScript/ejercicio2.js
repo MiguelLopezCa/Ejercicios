@@ -2,10 +2,10 @@ function analizar(){
  var m =(document.getElementById('cadena2').value);
 
  if( isNaN(m)==true){
-   console.log(typeof m); 
+   document.getElementById('titulo')=(typeof m); 
    
  }else{
-   console.log(typeof parseFloat(m));
+  document.getElementById('titulo')=(typeof parseFloat(m));
  }
 
 }
