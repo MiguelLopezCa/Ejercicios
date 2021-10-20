@@ -42,7 +42,7 @@
 #lista{
     color: blue;
     font-style: oblique;
-    left: 50%;
+    left:  40%;
     top: 300px;
     position: absolute;
     font-size: 41px;
@@ -50,7 +50,7 @@
 #tabla{
     top: 370px;
     position: absolute;
-    left: 50%;
+    left: 43%;
     font-size: 20px;
     font-family: cursive;
 }
@@ -61,4 +61,12 @@
 #tableHead:hover{
     background-color: blue;
     color: cyan;
+}
+.btnClick{
+    border: none;
+    font-size: 20px;
+}
+.btnClick:hover{
+    cursor: pointer;
+    color:blue;
 }
