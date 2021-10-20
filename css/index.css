@@ -47,4 +47,18 @@
     position: absolute;
     font-size: 41px;
 }
-
+#tabla{
+    top: 370px;
+    position: absolute;
+    left: 50%;
+    font-size: 20px;
+    font-family: cursive;
+}
+#tableHead{
+    background-color: cyan;
+    color: blue;
+}
+#tableHead:hover{
+    background-color: blue;
+    color: cyan;
+}
