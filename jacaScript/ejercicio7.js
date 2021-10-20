@@ -23,15 +23,15 @@ function analizar(){
                 document.getElementById('titulo').innerHTML='El número ' + num1+' no es divisible entre el número '+num2;
             }
         }else{
-            if (Number.isInteger(num1)&& num2!=Number.isInteger(num2) ){
+            document.getElementById('titulo').innerHTML='los numeros '+num1 +' y '+ num2 +' no son enteros';
+            if (Number.isInteger(num1) && num2!=Number.isInteger(num2) ){
                 document.getElementById('titulo').innerHTML='El número'+ num2 +'  no es entero';
             }
-            if (Number.isInteger(num2)&& num1!=Number.isInteger(num1) ){
+            if (num1!=Number.isInteger(num1) && Number.isInteger(num2) ){
                 document.getElementById('titulo').innerHTML='El número'+num1 +' no es entero';
             }
-            if(num1!=Number.isInteger(num1)&&num2!=Number.isInteger(num2)){
-                document.getElementById('titulo').innerHTML='los numeros '+num1 +' y '+ num2 +' no son enteros';
-            }
+                
+            
         }
     }
     if(num1<0 && num2>0){
@@ -40,6 +40,9 @@ function analizar(){
         }else{
             if(Number.isInteger(num1)&&num2!=Number.isInteger(num2)){
                 document.getElementById('titulo').innerHTML='El número '+num1+' No es positivo y el número '+num2+' No es entero positivo';
+            }
+            if(num1!=Number.isInteger(num1)&&Number.isInteger(num2)){
+                document.getElementById('titulo').innerHTML='El número '+num1+' No es entero positivo';
             }
            
         }
@@ -51,6 +54,9 @@ function analizar(){
         }else{
             if(Number.isInteger(num1)&&num2!=Number.isInteger(num2)){
                 document.getElementById('titulo').innerHTML='El número '+num2+' No es positivo y el número '+num1+' No es entero positivo';
+            }
+            if(num1!=Number.isInteger(num2)&&Number.isInteger(num1)){
+                document.getElementById('titulo').innerHTML='El número '+num2+' No es entero positivo';
             }
             
         }
