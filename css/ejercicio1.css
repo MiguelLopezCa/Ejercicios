@@ -57,7 +57,6 @@ body{
 }
 #divPaPrin{
     position: absolute;
-    top: 50%;
-    left: 15%;
+    top: 55%;
+    left:40%;
 }   
-}
