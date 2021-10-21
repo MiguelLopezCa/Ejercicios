@@ -1,0 +1,81 @@
+body{
+    margin-top: 20px;
+    height: 580px;
+    width: 1200px;  
+    background-color: #ff9c33;
+}
+#divCont{
+    border: 1px solid black;
+    border-radius: 5%;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 680px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: calc(50% - 400px);
+    text-align: center;
+    font-size: 25px;
+    border-color: #ff9c33;
+    color: #ff9c33;
+    background-color: white;
+    opacity: 0.9;
+}
+#titulo{
+    position: absolute;
+    width: 200px;
+    left: calc(50% - 100px);
+    top: 2%;
+    font-family: cursive;
+    color: #ff9c33;
+    font-size: 30px;
+}
+#eje{
+    position: absolute;
+    width: 700px;
+    left: calc(50% - 350px);
+    top: 85px;
+    font-family: cursive;
+    color: black;
+    font-size: 15px;
+}
+
+#divCon{
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 280px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 40%;
+    left: calc(50% - 300px);
+    text-align: center;
+    font-size: 25px;
+    border-color: #ff9c33;
+    border-radius: 5%;
+    color: #ff9c33;
+    background-color: white;
+    opacity: 0.9;
+}
+
+#btnA{
+    position: absolute;
+    top: 80%;
+    left: 40%;
+}
+#btnA:hover{
+    cursor: pointer;
+    background-color: orange;
+}
+#resultado{
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: calc(50% - 150px);
+    font-size: 30px;
+    color: black;
+}
+#divPaPrin{
+    position: absolute;
+    top: 90%;
+    left:40%;
+}  
