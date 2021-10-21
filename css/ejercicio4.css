@@ -38,7 +38,12 @@ body{
     color: black;
     font-size: 15px;
 }
-
+#ca{
+    position: absolute;
+    width: 700px;
+    top:25%;
+    left:calc( 50% - 350px);
+}
 #divCon{
     border: 1px solid black;
     background-repeat: no-repeat;
@@ -56,7 +61,95 @@ body{
     background-color: white;
     opacity: 0.9;
 }
+#nomb{
+    padding: 0;
+    margin-top: 0;
+    position: absolute;
+    width: 300px;
+    left: calc(25% - 150px);
+    top: 2%;
+    font-family: cursive;
+    font-size: 25px;
+}
+#nombre{
+    padding: 0;
+    margin-top: 0;
+    position: absolute;
+    width: 200px;
+    left: calc(25% - 100px);
+    top: 14%;
+    font-family: cursive;
+    font-size: 15px;
 
+}
+#asig{
+    padding: 0;
+    margin-top: 0;
+    position: absolute;
+    width: 100px;
+    left: calc(70% - 50px);
+    top: 2%;
+    font-family: cursive;
+    font-size: 25px;
+}
+#materia{
+    padding: 0;
+    margin-top: 0;
+    position: absolute;
+    width: 200px;
+    left: calc(72% - 100px);
+    top: 14%;
+    font-family: cursive;
+    font-size: 15px;
+}
+#not1{
+    position: absolute;
+    width: 100px;
+    left: calc(20% - 50px);
+    top: 30%;
+    font-family: cursive;
+    font-size: 25px;
+} 
+#nota1{
+    position: absolute;
+    width: 100px;
+    left: calc(19% - 50px);
+    top: 50%;
+    font-family: cursive;
+    font-size: 15px;
+}
+#not2{
+    position: absolute;
+    width: 100px;
+    left: calc(50% - 50px);
+    top: 30%;
+    font-family: cursive;
+    font-size: 25px;
+}
+#nota2{
+    position: absolute;
+    width: 100px;
+    left: calc(50% - 50px);
+    top: 50%;
+    font-family: cursive;
+    font-size: 15px;
+}
+#not3{
+    position: absolute;
+    width: 100px;
+    left: calc(80% - 50px);
+    top: 30%;
+    font-family: cursive;
+    font-size: 25px;
+}
+#nota3{
+    position: absolute;
+    width: 100px;
+    left: calc(80% - 50px);
+    top: 50%;
+    font-family: cursive;
+    font-size: 15px;
+}
 #btnA{
     position: absolute;
     top: 80%;
@@ -79,3 +172,23 @@ body{
     top: 90%;
     left:40%;
 }  
+#btnCalcular{
+    position: absolute;
+    width: 100px;
+    top: 80%;
+    left: calc( 50% - 50px );
+    font-family: cursive;
+    font-size: 18px;
+}
+#btnCalcular:hover{
+    cursor: pointer;
+    background-color: orange;
+}
+#res{
+    position: absolute;
+    width: 480px;
+    top: 60%;
+    left: calc(50% - 240px);
+    font-size: 23px;
+    color: black;
+}
