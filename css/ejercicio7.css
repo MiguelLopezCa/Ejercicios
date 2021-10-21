@@ -1,0 +1,118 @@
+body{
+    margin-top: 20px;
+    height: 580px;
+    width: 1200px;  
+    background-color: #ff9c33;
+}
+#divCont{
+    border: 1px solid black;
+    border-radius: 5%;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 580px;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: calc(50% - 350px);
+    text-align: center;
+    font-size: 25px;
+    border-color: #ff9c33;
+    color: #ff9c33;
+    background-color: white;
+    opacity: 0.9;
+}
+#titulo{
+    position: absolute;
+    width: 200px;
+    left: calc(50% - 100px);
+    top: 2%;
+    font-family: cursive;
+    color: #ff9c33;
+    font-size: 30px;
+}
+#eje{
+    position: absolute;
+    width: 600px;
+    left: calc(50% - 300px);
+    top: 85px;
+    font-family: cursive;
+    color: black;
+    font-size: 25px;
+}
+#divCon{
+    border: 1px solid black;
+    background-repeat: no-repeat;
+    width: 400px;
+    height:250px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 40%;
+    left: calc(50% - 200px);
+    text-align: center;
+    font-size: 25px;
+    border-color: #ff9c33;
+    border-radius: 5%;
+    color: #ff9c33;
+    background-color: white;
+    opacity: 0.9;
+}
+#ingr{
+    margin-top: 0;
+    padding: 0;
+    position: absolute;
+    width: 450px;
+    left: calc(50% - (450px / 2));
+    top: 5%;
+    font-family: cursive;
+    color: #ff9c33;
+    font-size: 25px;
+}
+#numero1{
+    position: absolute;
+    width: 200px;
+    left: calc(50% - (200px / 2));
+    top: 20%;
+    font-family: cursive;
+    font-size: 15px;
+}
+#ingr1{
+    margin-top: 0;
+    padding: 0;
+    position: absolute;
+    width: 450px;
+    left: calc(50% - (450px / 2));
+    top: 30%;
+    font-family: cursive;
+    color: #ff9c33;
+    font-size: 25px;
+}
+#numero2{
+    position: absolute;
+    width: 200px;
+    left: calc(50% - (200px / 2));
+    top: 45%;
+    font-family: cursive;
+    font-size: 15px;
+}
+
+#btnA{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+}
+#btnA:hover{
+    cursor: pointer;
+    background-color: orange;
+}
+#res{
+    position: absolute;
+    width: 280px;
+    top: 60%;
+    left: calc(50% - 140px);
+    font-size: 20px;
+    color: black;
+}
+#divPaPrin{
+    position: absolute;
+    top: 88%;
+    left:40%;
+}   

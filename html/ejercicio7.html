@@ -3,21 +3,25 @@
 <head>
     <meta charset="UTF-8" />
     <title>Ejercicio 7</title>
+    <link rel="stylesheet" href="../css/ejercicio7.css">
 </head>
 <body>
-    <h4>
-        Realizar una aplicación que permita saber si un número es divisible por otro.
-     El usuario debe ingresar dos números enteros positivos a y b, y decir si son divisibles entre sí
-    </h4>
-    <h3>Ingrese un numero positivo a</h3>
-    <input type="number" name="numero1" id="numero1" required> 
-    <h3>Ingrese un numero positivo b</h3>
-    <input type="number" name="numero2" id="numero2" required>
-    <button type="submit" onclick="analizar()">Guardar</button>
-    <div id="titulo"></div>
-    <a href="index.html">
+    <div id="divCont">
+        <h2 id="titulo"> ejercicio 7</h2>
+        <label id="eje">Realizar una aplicación que permita saber si un número es divisible por otro.
+            El usuario debe ingresar dos números enteros positivos a y b, y decir si son divisibles entre sí.</label>
+     <div id="divCon">
+        <h3 id="ingr">Ingrese un numero positivo a</h3>
+        <input type="number" name="numero1" id="numero1" required> 
+        <h3 id="ingr1">Ingrese un numero positivo b</h3>
+        <input type="number" name="numero2" id="numero2" required>
+        <button id="btnA" type="submit" onclick="analizar()">analizar</button>
+    <div id="res"></div>
+     </div>
+    <a id= "divPaPrin" href="index.html">
         <input type="button" value="Pagina Principal">
     </a>
+</div>
     <script type="text/javascript" src="../jacaScript/ejercicio7.js"></script>
 </body>
 </html>
