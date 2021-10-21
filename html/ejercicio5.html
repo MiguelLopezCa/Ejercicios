@@ -3,15 +3,23 @@
 <head>
     <meta charset="UTF-8" />
     <title>Ejercicio 5</title>
+    <link rel="stylesheet" href="../css/ejercicio5.css">
 </head>
 <body>
-    <h3>Ingrese una cadena de caracteres</h3>
-    <input type="number" name="numero" id="numero" required> 
-    <button type="submit" onclick="analizar()">Guardar</button>
-    <div id="titulo"></div>
-    <a href="index.html">
+    <div id="divCont">
+        <h2 id="titulo"> ejercicio 5</h2>
+        <label id="eje">Realizar una aplicación para identificar números pares e impares. El número debe ser 
+            ingresado por el usuario y debe ser un número entero positivo..</label>
+        <h3 id="ingr">Ingrese una cadena de caracteres numericos</h3>
+     <div id="divCon">
+        <input type="number" name="numero" id="numero" placeholder="Ingrese la cadena de números"  value="" required> 
+        <button id="btnA" type="submit" onclick="analizar()">Analizar</button> 
+        <div id="res"></div>
+     </div>
+    <a  id= "divPaPrin" href="index.html">
         <input type="button" value="Pagina Principal">
     </a>
+</div>
     <script type="text/javascript" src="../jacaScript/ejercicio5.js"></script>
 </body>
 </html>
