@@ -1,5 +1,5 @@
 function analizar(){
- var m =(document.getElementById('cadena2').value);
+ var m =(document.getElementById('cadena').value);
 
  if( isNaN(m)==true){
    document.getElementById('r').innerHTML=(typeof m); 
