@@ -1,3 +1,10 @@
+#divCont{
+    height: 500px;
+    width: 1270px;
+   position: relative;
+    border: solid 1 black;
+    
+}
 #titulo{
     font-size: 30px;
     color: blue;
@@ -43,12 +50,12 @@
     color: blue;
     font-style: oblique;
     left:  40%;
-    top: 300px;
+    top: 50%;
     position: absolute;
     font-size: 41px;
 }
 #tabla{
-    top: 370px;
+    top: 60%;
     position: absolute;
     left: 43%;
     font-size: 20px;
