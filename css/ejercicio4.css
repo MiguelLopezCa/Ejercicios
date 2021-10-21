@@ -1,6 +1,6 @@
 body{
     margin-top: 20px;
-    height: 580px;
+    height: 700px;
     width: 1200px;  
     background-color: #ff9c33;
 }
@@ -96,8 +96,8 @@ body{
     padding: 0;
     margin-top: 0;
     position: absolute;
-    width: 200px;
-    left: calc(72% - 100px);
+    width: 250px;
+    left: calc(72% - 125px);
     top: 14%;
     font-family: cursive;
     font-size: 15px;
@@ -112,8 +112,8 @@ body{
 } 
 #nota1{
     position: absolute;
-    width: 100px;
-    left: calc(19% - 50px);
+    width: 120px;
+    left: calc(19% - 60px);
     top: 50%;
     font-family: cursive;
     font-size: 15px;
@@ -128,8 +128,8 @@ body{
 }
 #nota2{
     position: absolute;
-    width: 100px;
-    left: calc(50% - 50px);
+    width: 120px;
+    left: calc(50% - 60px);
     top: 50%;
     font-family: cursive;
     font-size: 15px;
@@ -144,8 +144,8 @@ body{
 }
 #nota3{
     position: absolute;
-    width: 100px;
-    left: calc(80% - 50px);
+    width: 120px;
+    left: calc(80% - 60px);
     top: 50%;
     font-family: cursive;
     font-size: 15px;
@@ -189,6 +189,15 @@ body{
     width: 480px;
     top: 60%;
     left: calc(50% - 240px);
+    font-size: 23px;
+    color: black;
+    
+}
+#pagPrin{
+    position: absolute;
+    width: 100px;
+    top:90%;
+    left: calc(50% - 50px);
     font-size: 23px;
     color: black;
 }

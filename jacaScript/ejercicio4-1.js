@@ -13,10 +13,10 @@ function promedio(nn, aa,n1, n2, n3){
    }else{
       let resul = (n1+n2+n3)/3;  
       if (resul<3){
-         document.getElementById('res').innerHTML ='Lo siento '+nn+ ', su nota es '+resul +' No pasaste la materia '+aa;
+         document.getElementById('res').innerHTML ='Lo siento '+nn+' <strong style="color: red;"> ,su nota es '+ resul+'</strong>'+' No pasaste la materia '+aa;
      }
       if(resul>=3){
-        document.getElementById('res').innerHTML ='Felicitaciones '+nn+ ', su nota es '+resul+' Pasaste la materia '+aa;
+        document.getElementById('res').innerHTML ='Felicitaciones '+nn+ ' <strong style="color: greenyellow;"> ,su nota es '+ resul+'</strong>'+' Pasaste la materia '+aa;
      }
       if(resul>5){
         document.getElementById('res').innerHTML = 'la nota mas alta es de 5 Por favor verificar las notas'
